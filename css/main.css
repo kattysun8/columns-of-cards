@@ -11,7 +11,7 @@ html {
 body {
   margin: 0;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #f2f2f2;
 }
 
 section {
@@ -22,26 +22,31 @@ section {
 img {
   display: block;
   width: 25%;
+  margin: auto;
 }
 
 .box-1 {
-  background-color: #f2f2f2;
+  background-color: #e2e2e2;
   float: left;
+  border: 1px solid #000;
 }
 
 .box-2 {
-  background-color: #e2e2e2;
+  background-color: #ccc;
   float: left;
+  border: 1px solid #000;
 }
 
 .box-3 {
-  background-color: #ccc;
+  background-color: #aaa;
   float: left;
+  border: 1px solid #000;
 }
 
 .box-4 {
-  background-color: #aaa;
+  background-color: #999;
   float: left;
+  border: 1px solid #000;
 }
 
 .btn {
