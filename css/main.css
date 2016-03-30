@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  font: 100%/1.5 normal sans-serif;
 }
 
 *, *::before, *::after {
@@ -10,8 +9,30 @@ html {
 
 body {
   margin: 0;
-  overflow: hidden;
   background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  margin: 0.8em;
+}
+
+h2 {
+  font-size: 1em;
+  margin: 0.5em;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: 400;
+  margin: 0.5em;
+  font-size: 0.8em;
+}
+
+p {
+  font-size: 1em;
+  margin: 0.5em;
+  line-height: 1.5em;
 }
 
 section {
@@ -21,32 +42,37 @@ section {
 
 img {
   display: block;
-  width: 25%;
+  width: 30%;
   margin: auto;
+  margin-top: 1em;
 }
 
 .box-1 {
   background-color: #e2e2e2;
   float: left;
-  border: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
 }
 
 .box-2 {
   background-color: #ccc;
   float: left;
-  border: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
 }
 
 .box-3 {
   background-color: #aaa;
   float: left;
-  border: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
 }
 
 .box-4 {
   background-color: #999;
   float: left;
-  border: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
 }
 
 .btn {
@@ -58,6 +84,8 @@ img {
   font-size: 0.875rem;
   border: 3px solid #333;
   background-color: #333;
+  margin-bottom: 3em;
+  margin-top: 3em;
 }
 
 .btn-small {
